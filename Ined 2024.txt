@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Educativo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .content {
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 30%;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>INED Sergio Leonel Celis Navas </h1>
+</header>
+
+<nav>
+    <a href="#home">Inicio</a>
+    <a href="#about">Acerca de</a>
+    <a href="#courses">Cursos</a>
+    <a href="#contact">Contacto</a>
+</nav>
+
+<div class="content">
+    <section id="home">
+        <h2>Bienvenidos al Instituto </h2>
+        <p>Ineb-d Plan Diario J.V Sergio Leonel Celis Navas.</p>
+    </section>
+
+    <section id="about">
+        <h2>Acerca de Nosotros</h2>
+        <p>Nuestro instituto se dedica a formar líderes y profesionales en diversas áreas Que Imparte Conocimientos ,Desde el Año 2009,Al Nivel Medio ,Ciclo Basico y Diversificada en la Comunidad De Sumpango y Areas Aledañas Ya que Es Una Institucion Educativa Publica.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Cursos Ofrecidos</h2>
+        <p>Ofrecemos una amplia variedad de cursos adaptados a tus necesidades , Ya que Contamos con Ciclo Basico ,1ro Basico ,2do Basico,3ro Basico   Carreras Perito Contador ,3 años y Bachillerato en Ciencias y Letras con Orientacion en Computacion.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Galería INED</h2>
+        <div class="gallery">
+            <img src="img1.jpg" alt="IMG_1726802494210">
+            <img src="img2.jpg" alt="IMG_1726802488063">
+            <img src="img3.jpg" alt="IMG-20240919-WA0052">
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>Visita nuestro <a href="https://www.ejemplo.com" target="_blank" style="color: #fff;">sitio web oficial</a></p>
+    <p>Ineb-d Plan Diario J.V Sergio Celis Navas Sumpango Sacatepequez Guatemala:</p>
+    <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+    <a href="https://www.twitter.com" target="_blank">Twitter</a> |
+    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+</footer>
+
+</body>
+</html>
